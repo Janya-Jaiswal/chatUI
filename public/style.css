@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.chat-container {
+  width: 400px;
+  height: 600px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.messages-container {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  background:linear-gradient(to top, #1d1a39,#451952,#662549,#ae445a,#f39f5a,#e8bcb9)
+}
+
+.message-input-container {
+  display: flex;
+  padding: 10px;
+  background: #1d1a39;
+}
+
+.message-input-container input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 20px;
+  background-color: #e8bcb9;
+  border-color:#e8bcb9 ;
+}
+
+.message-input-container button {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 20px;
+  background-color: #ae445a;
+  border-color: #ae445a;
+}
+
+.message-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.sender-message-container {
+  justify-content: flex-end;
+}
+
+.message-bubble {
+  background:#451952;
+  padding: 10px;
+  border-radius: 20px;
+  max-width: 70%;
+  color: antiquewhite;
+}
+
+.sender-message-bubble {
+  background: #662549;
+  color: antiquewhite;
+}
